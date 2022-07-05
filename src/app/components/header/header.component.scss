@@ -1,0 +1,52 @@
+@import "src/shared/styles/input.scss";
+
+header {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #30a9f2;
+  img {
+    width: 50px;
+    height: auto;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    .left__header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      .search__box {
+        display: flex;
+        position: relative;
+        .search-icon {
+          background-color: #30a9f2;
+          padding: 0 0.5rem;
+          height: 100%;
+          position: absolute;
+          right: -10px;
+          border-radius: 8px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          i {
+            color: white;
+          }
+        }
+      }
+      .breadcrumb {
+        margin-bottom: 0 !important;
+        a {
+          display: inline;
+          font-size: 18px;
+          text-decoration: none;
+          color: black;
+          &:not(:last-child)::after {
+            padding: 8px;
+            color: black;
+            content: "\003E";
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

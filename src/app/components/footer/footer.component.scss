@@ -1,0 +1,13 @@
+footer {
+  background-color: white;
+  height: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #30a9f2;
+  .innovater {
+    font-weight: bold;
+    color: #30a9f2;
+  }
+}

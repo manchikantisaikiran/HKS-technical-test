@@ -1,0 +1,36 @@
+aside {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid #30a9f2;
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    i {
+      width: 20px;
+    }
+  }
+
+  ul {
+    padding-left: 0 !important;
+    li {
+      padding: 0.5rem;
+      list-style: none;
+      .main__link,
+      .sub__link {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        .notification {
+          font-size: 0.6rem;
+        }
+      }
+      .sub-menu {
+        padding-left: 0;
+        li {
+          padding: 0.5rem 0 !important;
+        }
+      }
+    }
+  }
+}

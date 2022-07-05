@@ -1,0 +1,11 @@
+::ng-deep .toast-container {
+  z-index: 2147483647 !important;
+}
+
+::ng-deep .toast {
+  padding: 4px !important;
+}
+
+::ng-deep .toast-body {
+  padding: 0.5rem !important;
+}
